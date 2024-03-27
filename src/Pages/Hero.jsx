@@ -32,14 +32,14 @@ export default function Hero() {
           />
           <p className="hero-div-gradient-text">
             WHAT
-            <br /> THE SOL!!
+            <br /> THE BASE!!
           </p>
         </div>
         <img src="/assets/heroimg.png" alt="" className="hero-img-phone" />
         <div className="flex flex-col gap-2 hero-div-text">
           <p>What the Fxck!?</p>
-          <p> Oh no, What the SOL!</p>
-          <p>What the fuck is happening on SOLANA?</p>
+          <p> Oh no, What the BASE!</p>
+          <p>What the fuck is happening on BASE?</p>
         </div>
         <a
           href="https://raydium.io/swap"

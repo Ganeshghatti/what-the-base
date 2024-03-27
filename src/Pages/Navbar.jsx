@@ -101,7 +101,7 @@ export default function Navbar() {
         </>
       )}
       {/* <img src="./assets/logo.png" className="navbar-logo cursor-pointer" /> */}
-      <p className="navbar-logo">$WTS</p>
+      <p className="navbar-logo">$WTB</p>
       <div className="flex gap-8 items-center md:hidden">
         <ul
           className="flex z-50 justify-around items-center md:hidden navbar-pc-menu mx-12"

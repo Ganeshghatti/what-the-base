@@ -178,7 +178,7 @@ export default function Tokenomics() {
                     </linearGradient>
                   </defs>
                 </svg>
-                Total Supply 1,000,000,000 $WTS
+                Total Supply 1,000,000,000 $WTB
               </li>
             </ul>
             <Tooltip title={msg}>

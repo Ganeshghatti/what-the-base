@@ -41,7 +41,7 @@ export default function Footer() {
                 className="object-cover w-full hidden md:block"
               />
               <div className="flex items-center justify-center absolute sm:gap-0 lg:gap-2 flex-col">
-                <p className="footer-div1-gradient-text">WHAT THE SOL!!</p>
+                <p className="footer-div1-gradient-text">WHAT THE BASE!!</p>
                 <a
                   href="https://raydium.io/swap"
                   target="_blank"
