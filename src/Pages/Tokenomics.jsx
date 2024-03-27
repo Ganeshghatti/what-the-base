@@ -206,7 +206,7 @@ export default function Tokenomics() {
               </div>
             </div>
             <div className="w-full flex items-center justify-center">
-              <img src="/assets/tokenomicsimg.png" alt="" className="w-2/3"/>
+              <img src="/assets/tokenomicsimg.png" alt="" className="w-2/3 md:w-full"/>
             </div>
           </div>
         </div>
