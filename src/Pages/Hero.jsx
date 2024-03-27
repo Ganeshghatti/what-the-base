@@ -8,7 +8,7 @@ export default function Hero() {
     gsap.fromTo(
       ".hero-div-gradient",
       { scale: 0 },
-      { scale: 1, duration: 0.25 }
+      { scale: 1, duration: 0.25,delay:1 }
     );
   }, []);
 

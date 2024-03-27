@@ -52,25 +52,22 @@
   height: 100vh;
   padding-top: 7vh;
   overflow-x: hidden !important;
+
   @media (min-width: 867px) {
     background-image: url("../public/assets/heroimg.png");
     background-repeat: no-repeat;
-    // background-position: right 0 bottom 25vh;
     background-position: right 0 bottom 0vh;
     background-size: 45% 85%;
-    // animation: mymove 1s 1;
+    animation: mymove 1s 1;
   }
-  // @keyframes mymove {
-  //   0% {
-  //     background-position: right -10vh bottom 0vh;
-  //   }
-  //   100% {
-  //     background-position: right 0 bottom 0vh;
-  //   }
-  // }
-  @media (max-width: 867px) {
-    height: auto;
-    padding-top: 10vh;
+
+  @keyframes mymove {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   .hero-div {
     margin-left: 5vw;
@@ -110,7 +107,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 80%;
-        font-size: clamp(55px, 7.5vw, 127px);
+        font-size: clamp(55px, 7.5vw, 110px);
         line-height: clamp(70px, 8vw, 174px);
         @media (max-width: 867px) {
           font-size: clamp(45px, 9vw, 85px);
@@ -167,18 +164,18 @@
       align-self: flex-end;
       margin-top: -75px;
       z-index: 5;
-      // animation: mymove_phone 1s 1;
+      animation: mymove_phone 1s 1;
       @media (min-width: 867px) {
         display: none;
       }
-      // @keyframes mymove_phone {
-      //   0% {
-      //     margin-right: -50px;
-      //   }
-      //   100% {
-      //     margin-right: 0px;
-      //   }
-      // }
+      @keyframes mymove_phone {
+        0% {
+          transform: scale(0);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
     }
   }
 }
