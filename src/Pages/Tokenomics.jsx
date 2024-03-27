@@ -21,7 +21,7 @@ export default function Tokenomics() {
     >
       <img src="/assets/herodesign.png" alt="" className="tokenomics-design" />
 
-      <div className="flex flex-col gap-3 custom-width-88 md:w-11/12">
+      <div className="flex flex-col custom-width-88 md:w-11/12">
         <div className="flex justify-between items-center w-full gap-12 md:gap-6">
           <p className="tokenomics-title">TOKENOMICS</p>
           <div className="flex-1 h-2 bg-black md:h-1" />
@@ -191,7 +191,7 @@ export default function Tokenomics() {
             </Tooltip>
           </div>
           <div className="tokenomics-right">
-            <div className="flex justify-center gap-12 w-full md:justify-between md:gap-0">
+            <div className="flex justify-center gap-20 w-full md:justify-between md:gap-0">
               <div className="flex items-center gap-2 md:gap-1 tokenomics-right-piechart-text">
                 <div className="w-4 h-4 bg-[#2FA6FD]" />
                 Team
@@ -205,7 +205,9 @@ export default function Tokenomics() {
                 Liquidity
               </div>
             </div>
-            <img src="/assets/tokenomicsimg.png" alt="" />
+            <div className="w-full flex items-center justify-center">
+              <img src="/assets/tokenomicsimg.png" alt="" className="w-2/3"/>
+            </div>
           </div>
         </div>
       </div>
