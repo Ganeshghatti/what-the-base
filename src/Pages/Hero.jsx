@@ -49,7 +49,7 @@ export default function Hero() {
             <p>What the fuck is happening on BASE?</p>
           </div>
           <a
-            href="https://raydium.io/swap"
+            href="https://app.uniswap.org/"
             target="_blank"
             className="w-fit"
             onClick={scalehandleClick}

@@ -43,7 +43,7 @@ export default function Footer() {
               <div className="flex items-center justify-center absolute sm:gap-0 lg:gap-2 flex-col">
                 <p className="footer-div1-gradient-text">WHAT THE BASE!!</p>
                 <a
-                  href="https://raydium.io/swap"
+                  href="https://app.uniswap.org/"
                   target="_blank"
                   className="w-fit"
                   onClick={scalehandleClick}

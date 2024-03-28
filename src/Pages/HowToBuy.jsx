@@ -11,7 +11,7 @@ export default function HowToBuy() {
         <div className="w-full flex md:flex-col md:items-center justify-between mt-24 md:gap-28">
           <div className="HowToBuy-card1 HowToBuy-card">
             <img src="/assets/HowtoBuycard1.png" alt="" />
-            <a href="https://app.uniswap.org/">
+            <a href="https://app.uniswap.org">
               Open https:
               <br />
               //app.uniswap
