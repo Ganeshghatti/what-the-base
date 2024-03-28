@@ -10,6 +10,11 @@ export default function Hero() {
       { scale: 0 },
       { scale: 1, duration: 0.25, delay: 1 }
     );
+    gsap.fromTo(
+      ".hero-div-content",
+      { scale: 0 },
+      { scale: 1, duration: 0.25, delay: 2 }
+    );
   }, []);
 
   const scalehandleClick = () => {
@@ -23,20 +28,21 @@ export default function Hero() {
       id="hero"
       className="w-full relative flex items-center md:flex-col"
     >
-      <div className="hero-bg-div w-full h-screen absolute left-0 md:hidden top-0"/>
-        <div className="hero-div">
-          <div className="hero-div-gradient">
-            <img
-              src="/assets/herogradient.png"
-              alt=""
-              className="hero-div-gradient-img"
-            />
-            <p className="hero-div-gradient-text">
-              WHAT
-              <br /> THE BASE!!
-            </p>
-          </div>
-          <img src="/assets/heroimg.png" alt="" className="hero-img-phone" />
+      <div className="hero-bg-div w-full h-screen absolute left-0 md:hidden top-0" />
+      <div className="hero-div">
+        <div className="hero-div-gradient">
+          <img
+            src="/assets/herogradient.png"
+            alt=""
+            className="hero-div-gradient-img"
+          />
+          <p className="hero-div-gradient-text">
+            WHAT
+            <br /> THE BASE!!
+          </p>
+        </div>
+        <img src="/assets/heroimg.png" alt="" className="hero-img-phone" />
+        <div className="hero-div-content flex flex-col gap-4">
           <div className="flex flex-col gap-2 hero-div-text">
             <p>What the Fxck!?</p>
             <p> Oh no, What the BASE!</p>
@@ -59,6 +65,7 @@ export default function Hero() {
             </button>
           </a>
         </div>
+      </div>
     </section>
   );
 }
