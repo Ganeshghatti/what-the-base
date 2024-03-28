@@ -52,23 +52,25 @@
   height: 100vh;
   padding-top: 7vh;
   overflow-x: hidden !important;
+  .hero-bg-div {
+    @media (min-width: 867px) {
+      background-image: url("../public/assets/heroimg.png");
+      background-repeat: no-repeat;
+      background-position: right 0 bottom 0vh;
+      background-size: 45% 85%;
+      animation: mymove 1s 1 forwards;
+    }
 
-  @media (min-width: 867px) {
-    background-image: url("../public/assets/heroimg.png");
-    background-repeat: no-repeat;
-    background-position: right 0 bottom 0vh;
-    background-size: 45% 85%;
-    animation: mymove 1s 1;
+    @keyframes mymove {
+      0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
   }
 
-  @keyframes mymove {
-    0% {
-      transform: scale(0);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
   .hero-div {
     margin-left: 5vw;
     // margin-top: 8vh;
@@ -107,10 +109,10 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 80%;
-        font-size: clamp(55px, 7.5vw, 110px);
+        font-size: clamp(55px, 7vw, 110px);
         line-height: clamp(70px, 8vw, 174px);
         @media (max-width: 867px) {
-          font-size: clamp(45px, 9vw, 85px);
+          font-size: clamp(45px, 8vw, 80px);
           line-height: clamp(55px, 10vw, 90px);
         }
       }
@@ -422,12 +424,12 @@
             color: #000;
             text-align: center;
             font-family: "Original Surfer";
-            font-size: clamp(65px, 4.5vw, 80px);
+            font-size: clamp(65px, 4vw, 70px);
             font-style: normal;
             font-weight: 400;
             line-height: clamp(50px, 5vw, 90px);
             @media (max-width: 867px) {
-              font-size: clamp(45px, 7vw, 65px);
+              font-size: clamp(45px, 6.5vw, 60px);
               line-height: 50px;
               width: 90%;
             }

@@ -12,9 +12,9 @@ export default function HowToBuy() {
           <div className="HowToBuy-card1 HowToBuy-card">
             <img src="/assets/HowtoBuycard1.png" alt="" />
             <a href="https://app.uniswap.org/">
-              Open
+              Open https:
               <br />
-              https://app.uniswap
+              //app.uniswap
               <br />
               .org/
             </a>

@@ -8,7 +8,7 @@ export default function Hero() {
     gsap.fromTo(
       ".hero-div-gradient",
       { scale: 0 },
-      { scale: 1, duration: 0.25,delay:1 }
+      { scale: 1, duration: 0.25, delay: 1 }
     );
   }, []);
 
@@ -23,41 +23,42 @@ export default function Hero() {
       id="hero"
       className="w-full relative flex items-center md:flex-col"
     >
-      <div className="hero-div">
-        <div className="hero-div-gradient">
-          <img
-            src="/assets/herogradient.png"
-            alt=""
-            className="hero-div-gradient-img"
-          />
-          <p className="hero-div-gradient-text">
-            WHAT
-            <br /> THE BASE!!
-          </p>
-        </div>
-        <img src="/assets/heroimg.png" alt="" className="hero-img-phone" />
-        <div className="flex flex-col gap-2 hero-div-text">
-          <p>What the Fxck!?</p>
-          <p> Oh no, What the BASE!</p>
-          <p>What the fuck is happening on BASE?</p>
-        </div>
-        <a
-          href="https://raydium.io/swap"
-          target="_blank"
-          className="w-fit"
-          onClick={scalehandleClick}
-        >
-          <button
-            className="hero-button"
-            style={{
-              transform: `scale(${scale.scale})`,
-              transition: "transform 0.3s ease",
-            }}
+      <div className="hero-bg-div w-full h-screen absolute left-0 md:hidden top-0"/>
+        <div className="hero-div">
+          <div className="hero-div-gradient">
+            <img
+              src="/assets/herogradient.png"
+              alt=""
+              className="hero-div-gradient-img"
+            />
+            <p className="hero-div-gradient-text">
+              WHAT
+              <br /> THE BASE!!
+            </p>
+          </div>
+          <img src="/assets/heroimg.png" alt="" className="hero-img-phone" />
+          <div className="flex flex-col gap-2 hero-div-text">
+            <p>What the Fxck!?</p>
+            <p> Oh no, What the BASE!</p>
+            <p>What the fuck is happening on BASE?</p>
+          </div>
+          <a
+            href="https://raydium.io/swap"
+            target="_blank"
+            className="w-fit"
+            onClick={scalehandleClick}
           >
-            Buy Now
-          </button>
-        </a>
-      </div>
+            <button
+              className="hero-button"
+              style={{
+                transform: `scale(${scale.scale})`,
+                transition: "transform 0.3s ease",
+              }}
+            >
+              Buy Now
+            </button>
+          </a>
+        </div>
     </section>
   );
 }
