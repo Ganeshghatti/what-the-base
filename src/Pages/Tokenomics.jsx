@@ -183,7 +183,7 @@ export default function Tokenomics() {
             </ul>
             <Tooltip title={msg}>
               <button
-                className="tokenomics-button flex flex-col gap-1"
+                className="tokenomics-button flex flex-col gap-1 items-center"
                 onClick={handleCopyToClipboard}
               >
                 Contract Address
