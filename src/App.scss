@@ -267,6 +267,11 @@
       width: fit-content;
       margin-top: 30px;
       background: #181818;
+      .tokenomics-button-address{
+        @media (max-width: 867px) {
+          font-size: 2.5vw;
+        }
+      }
       @media (max-width: 867px) {
         width: 100%;
         padding: 10px 15px;
