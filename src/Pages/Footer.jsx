@@ -75,7 +75,7 @@ export default function Footer() {
                 <a href="/#HowToBuy">How to buy</a>
               </li>
             </ul>
-            <a href="https://twitter.com/what_the_SB">
+            <a href="https://twitter.com/whatthesolbase">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -94,9 +94,9 @@ export default function Footer() {
                     <rect width="20" height="20" fill="white" />
                   </clipPath>
                 </defs>
-              </svg>{" "}
+              </svg>
             </a>
-            <a href="https://t.me/whathesolbase">
+            <a href="https://t.co/bvkdSkVOK7">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

@@ -60,7 +60,7 @@ export default function Navbar() {
             </li>
             <div className="flex gap-12 items-center flex-col">
               <div className="flex gap-6">
-                <a href="https://twitter.com/what_the_SB">
+                <a href="https://twitter.com/whatthesolbase">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -81,7 +81,7 @@ export default function Navbar() {
                     </defs>
                   </svg>
                 </a>
-                <a href="https://t.me/whathesolbase">
+                <a href="https://t.co/bvkdSkVOK7">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -114,7 +114,7 @@ export default function Navbar() {
             <a href="/#HowToBuy">How to buy</a>
           </li>
         </ul>
-        <a href="https://twitter.com/what_the_SB">
+        <a href="https://twitter.com/whatthesolbase">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -135,7 +135,7 @@ export default function Navbar() {
             </defs>
           </svg>{" "}
         </a>
-        <a href="https://t.me/whathesolbase">
+        <a href="https://t.co/bvkdSkVOK7">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
