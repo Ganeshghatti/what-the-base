@@ -96,7 +96,7 @@ export default function Footer() {
                 </defs>
               </svg>
             </a>
-            <a href="https://t.co/bvkdSkVOK7">
+            <a href="https://t.me/whatthesolbase">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
